@@ -6,7 +6,7 @@ subtitle: Something about me.
 
 profile:
   align: right
-  image: img/prof_pic.jpg
+  image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   address: >
     <p>KAUST, Saudi Arabia</p>
