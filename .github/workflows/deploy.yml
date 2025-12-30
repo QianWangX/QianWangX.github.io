@@ -25,6 +25,13 @@ jobs:
       with:
         ruby-version: '3.2.1'
         bundler-cache: true
+      
+      # ADD THIS STEP HERE:
+    - name: Install ImageMagick
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y imagemagick libmagickwand-dev
+        
     - name: Install and Build 🔧
       run: |
         npm install -g mermaid.cli
